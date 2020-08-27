@@ -13,11 +13,11 @@ import kotlinx.coroutines.*
  */
 
 fun main(){
-    //cancellingCoroutineExecution()
-    //cancellationIsCooperative()
-    //makingComputationCodeCancellableUsingYield()
-    //makingComputationCodeCancellable()
-    //closingResourcesWithFinally()
+    cancellingCoroutineExecution()
+    cancellationIsCooperative()
+    makingComputationCodeCancellableUsingYield()
+    makingComputationCodeCancellable()
+    closingResourcesWithFinally()
     runNonCancellableBlock()
 }
 
